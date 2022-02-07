@@ -1,0 +1,8 @@
+[Unit]
+Description=Raspberry Pi Web Camera
+After=multi-user.target
+[Service]
+Type=idle
+ExecStart=/usr/bin/python3 /home/pi/rpi_camera/rpi_camera.py
+[Install]
+WantedBy=multi-user.target
