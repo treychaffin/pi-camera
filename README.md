@@ -16,9 +16,13 @@ Tested with Raspberry Pi Zero W and Raspberry Pi camera v1.3 at 1080p
 Clone this directory to the pi directory, cd into the directory
 
 > sudo cp rpi_camera.service /lib/systemd/system/rpi_camera.service
+
 > sudo chmod 644 /lib/systemd/system/rpi_camera.service
+
 > sudo systemctl daemon-reload
+
 > sudo systemctl enable rpi_camera.service
+
 > sudo reboot
 
 Using a web browser, navigate to port 8000 of the pi's IP address.
