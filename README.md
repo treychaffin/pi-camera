@@ -2,7 +2,9 @@
 
 Raspberry pi web camera to stream video that can be used with a web browser
 
-Tested with Raspberry Pi Zero W and Raspberry Pi camera v1.3 at 1080p
+Tested with Raspberry Pi Zero W and Raspberry Pi camera v1.3 at 480p
+
+Tests with higher resolutions and framerates caused crashing.
 
 ## Pre-Requisites
 
